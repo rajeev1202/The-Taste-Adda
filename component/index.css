@@ -1,0 +1,54 @@
+body{
+    margin:0px !important;
+    width: 100%;
+}
+
+
+.header{
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+div>.header li:nth-child(2){
+    margin-left: auto !important;
+}
+
+.header>li{
+   list-style: none;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.header-wrapper{
+    background-color: gold;
+    position: sticky;
+}
+
+.header li:first-child{
+    position: absolute;
+    top:-10px;
+    left:40px;
+}
+
+ul>li>img.app-logo{
+    width: 80px;
+}
+
+.restraunt-card-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.restro-card{
+    border: 1px solid black;
+    width: 180px;
+    height: auto;
+    padding: 5px;
+}
+
+.restro-card>img{
+    width: 180px;
+}

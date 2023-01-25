@@ -1,0 +1,30 @@
+{
+  "name": "the-taste-adda",
+  "version": "1.0.0",
+  "description": "Food delivery React-parcel app",
+
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel ./component/index.html",
+    "build": "npx parcel build ./component/index.html"
+  },
+  "keywords": [
+    "food",
+    "delivery",
+    "react-app",
+    "react-parcel",
+    "food-app",
+    "food-adda",
+    "taste-adda"
+  ],
+  "author": "Rajeev Ranjan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
