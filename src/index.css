@@ -39,7 +39,7 @@ ul>li>img.app-logo{
 .restraunt-card-wrapper{
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .restro-card{
@@ -52,3 +52,17 @@ ul>li>img.app-logo{
 .restro-card>img{
     width: 180px;
 }
+
+.footer{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.mt-2{
+margin-top: 20px;
+}
+
+.body-container{
+    padding: 20px;
+}
+
