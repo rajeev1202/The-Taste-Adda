@@ -3,12 +3,15 @@ body{
     width: 100%;
 }
 
+html,body{
+    height: 100%;
+}
+
 
 .header{
     display: inline-flex;
     width: 100%;
     box-sizing: border-box;
-
 }
 
 div>.header li:nth-child(2){
@@ -24,6 +27,8 @@ div>.header li:nth-child(2){
 .header-wrapper{
     background-color: gold;
     position: sticky;
+    margin-bottom: 30px;
+    top: 0;
 }
 
 .header li:first-child{
@@ -39,7 +44,8 @@ ul>li>img.app-logo{
 .restraunt-card-wrapper{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    gap: 10px 20px;
+    flex-wrap: wrap;
 }
 
 .restro-card{
@@ -66,3 +72,34 @@ margin-top: 20px;
     padding: 20px;
 }
 
+.shimmer-card{
+    height: 220px;
+    width: 192px;
+    background-color: lightgrey;
+}
+
+.shimmer-container{
+    display: flex;
+    gap: 10px 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.rest-menu-container{
+    display: flex;
+}
+
+.login-container{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-card{
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+}

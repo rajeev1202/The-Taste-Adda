@@ -2,7 +2,6 @@
   "name": "the-taste-adda",
   "version": "1.0.0",
   "description": "Food delivery React-parcel app",
-
   "scripts": {
     "test": "jest",
     "start": "npx parcel ./src/index.html",
@@ -25,6 +24,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
   }
 }

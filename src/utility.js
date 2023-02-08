@@ -3,7 +3,7 @@ export const filterItems = (searchTxt, itemsList) => {
       return itemsList
 
     let filteredList = itemsList.filter((item) => {
-     return  item.data.name.toLowerCase() === searchTxt.toLowerCase()
+     return  item.data.name.toLowerCase().includes( searchTxt.toLowerCase())
     })
     return filteredList;
   }
